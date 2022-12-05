@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.liuqiang</groupId>
+    <artifactId>springboot-datasources</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+
+<!--springboot父工程依赖-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.5.RELEASE</version>
+    </parent>
+
+<!-- 数据库的相关模块-->
+    <modules>
+<!-- mysql-->
+        <module>springboot-mysql</module>
+<!-- mysql的框架mybatis-->
+        <module>springboot-mybatis</module>
+<!-- mysql的框架mybatis-plus升级版-->
+        <module>springboot-mybatis-plus</module>
+<!-- redis数据库-->
+        <module>springboot-redis</module>
+<!-- mongodb文档数据库-->
+        <module>springboot-mongodb</module>
+<!-- elasticsearch搜索引擎数据库-->
+        <module>springboot-elasticsearch</module>
+
+<!-- oracle数据库和MySQL类似-->
+        <module>springboot-oracle</module>
+<!-- Neo4j是一个高性能的,NOSQL图形数据库-->
+        <module>springboot-neo4j</module>
+    </modules>
+
+
+<!-- 公共相关依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+<!-- 简化代码工具包-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
