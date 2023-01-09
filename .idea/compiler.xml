@@ -2,20 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-mybatis" />
-        <module name="springboot-neo4j" />
         <module name="springboot-elasticsearch" />
-        <module name="springboot-oracle" />
-        <module name="springboot-mybatis-plus" />
-        <module name="springboot-redis" />
         <module name="springboot-mongodb" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-mybatis-plus" />
         <module name="springboot-mysql" />
+        <module name="springboot-neo4j" />
+        <module name="springboot-oracle" />
+        <module name="springboot-redis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-datasources" target="1.8" />
+      <module name="springboot-elasticsearch" target="1.8" />
+      <module name="springboot-mongodb" target="1.8" />
+      <module name="springboot-mybatis" target="1.8" />
+      <module name="springboot-mybatis-plus" target="1.8" />
+      <module name="springboot-mysql" target="1.8" />
+      <module name="springboot-neo4j" target="1.8" />
+      <module name="springboot-oracle" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

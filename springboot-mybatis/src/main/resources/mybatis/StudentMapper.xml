@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"><!--约束，约束不同xml中所写的标签也不同-->
+<mapper namespace="com.liuqiang.mapper.StudentMapper">
+
+<!-- 查询所有学生信息-->
+    <select id="getAllStudent" resultType="com.liuqiang.entity.Student">
+        select *from student;
+    </select>
+
+</mapper>
+

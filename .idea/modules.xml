@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-datasources.iml" filepath="$PROJECT_DIR$/springboot-datasources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" filepath="$PROJECT_DIR$/springboot-mongodb/springboot-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-plus/springboot-mybatis-plus.iml" filepath="$PROJECT_DIR$/springboot-mybatis-plus/springboot-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mysql/springboot-mysql.iml" filepath="$PROJECT_DIR$/springboot-mysql/springboot-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-neo4j/springboot-neo4j.iml" filepath="$PROJECT_DIR$/springboot-neo4j/springboot-neo4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-oracle/springboot-oracle.iml" filepath="$PROJECT_DIR$/springboot-oracle/springboot-oracle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+    </modules>
+  </component>
+</project>
